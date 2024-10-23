@@ -45,7 +45,7 @@ header {
     padding-top: 20px;
 }
 
-.headerWrapper{
+.headerWrapper {
     width: var(--mainWidthPage);
     margin: 0 auto;
     display: flex;
@@ -64,6 +64,7 @@ header {
 
 .logoWrapper {
     margin: 0 auto;
+    padding-right: 110px;
 }
 
 .logo {
@@ -90,7 +91,7 @@ header {
     margin: 0 auto;
 }
 
-.brandPresentation{
+.brandPresentation {
     margin-bottom: 386px;
 }
 
@@ -107,7 +108,7 @@ header {
     line-height: 64px;
 }
 
-.brandPresentation__SubTitle{
+.brandPresentation__SubTitle {
     font-size: 18px;
     color: var(--altColor);
     width: 540px;
@@ -115,14 +116,14 @@ header {
     margin-bottom: 70px;
 }
 
-.brandPresentation__buttons{
+.brandPresentation__buttons {
     display: flex;
     gap: 32px;
 }
 
-.Button__Order{
+.Button__Order {
     font-family: var(--robotoM);
-    font-size: 16px;
+    font-size: var(--bodyTitleSize);
     background-color: var(--brandColor);
     color: white;
     padding: 8px 56px;
@@ -131,44 +132,44 @@ header {
     cursor: pointer;
 }
 
-.brandPresentation__buttons button:last-child{
+.brandPresentation__buttons button:last-child {
     background-color: rgba(255, 255, 255, 0);
     border: 2px solid var(--brandColor);
     color: var(--brandColor);
-    backdrop-filter: blur(12px);   
+    backdrop-filter: blur(12px);
 }
 
-.brandService{
+.brandService {
     background-image: url(/img/undraw_mobile_login_ikmv.png);
     background-repeat: no-repeat;
     background-position: right;
 }
 
-.brandService_wrapper{
+.brandService_wrapper {
     padding: 160px 0;
 }
 
-.brandService__Title{
+.brandService__Title {
     font-family: var(--robotoM);
-    font-size: 36px;
+    font-size: var(--h2TitleSize);
     color: var(--brandColor);
     margin-bottom: 16px;
 }
 
-.brandService__Subtitle{
-    font-size: 16px;
+.brandService__Subtitle {
+    font-size: var(--bodyTitleSize);
     color: var(--altColor);
     width: 540px;
     line-height: 24px;
     margin-bottom: 80px;
 }
 
-.brandService__Options{
+.brandService__Options {
     display: flex;
     gap: 30px;
 }
 
-.brandService__Icon{
+.brandService__Icon {
     width: 36px;
     height: 36px;
     background-image: url(/img/Icon.png);
@@ -176,14 +177,14 @@ header {
     margin-bottom: 14px;
 }
 
-.brandService__Options h6{
+.brandService__Options h6 {
     font-family: var(--robotoM);
-    font-size: 16px;
+    font-size: var(--bodyTitleSize);
     color: var(--brandColor);
     margin-bottom: 10px;
 }
 
-.brandService__Option__SubTitle{
+.brandService__Option__SubTitle {
     font-size: 12px;
     color: var(--altColor);
     width: 255px;
@@ -192,48 +193,188 @@ header {
 
 .brandOption__01,
 .brandOption__02,
-.brandOption__03{
+.brandOption__03 {
     display: flex;
     justify-content: flex-end;
 }
 
-.brandOption__01{
+.brandOption__01 {
     background-image: url(/img/undraw_happy_news_hxmt.png);
     background-repeat: no-repeat;
     background-position: left center;
 }
 
-.brandOption__02{
+.brandOption__02 {
     background-image: url(/img/undraw_social_influencer_sgsv.png);
     background-repeat: no-repeat;
     background-position: left center;
 }
 
-.brandOption__03{
+.brandOption__03 {
     background-image: url(/img/undraw_mention_6k5d.png);
     background-repeat: no-repeat;
     background-position: left center;
 }
 
-.brandOption__wrapper{
+.brandOption__wrapper {
     margin: 172px 0;
-   
+
 }
 
-.brandOption__Title{
+.brandOption__Title {
     font-family: var(--robotoM);
-    font-size: 36px;
+    font-size: var(--h2TitleSize);
     color: var(--brandColor);
     margin-bottom: 20px;
 }
 
-.brandOption__SubTitle{
-    font-size: 16px;
+.brandOption__SubTitle {
+    font-size: var(--bodyTitleSize);
     color: var(--altColor);
     width: 446px;
     line-height: 24px;
 }
 
-.button__wrapper{
+.button__wrapper {
     margin-top: 40px;
+}
+
+/* .brandOffer{ */
+/* background-image: url(/img/Rectangle.png); */
+/* background-repeat: no-repeat; */
+/* background-size: 100vw 800px; */
+/* background-position: bottom; */
+/* } */
+
+.brandOffer_wrapper {
+    width: var(--mainWidthPage);
+    margin: 236px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.brandOffer__Title {
+    font-family: var(--robotoM);
+    font-size: var(--h2TitleSize);
+    text-align: center;
+    margin-bottom: 18px;
+}
+
+.brandOffer__Subtitle {
+    font-size: var(--bodyTitleSize);
+    line-height: 24px;
+    color: var(--altColor);
+    width: 600px;
+    text-align: center;
+    margin-bottom: 38px;
+}
+
+.brandOffer__Offer__Price {
+    font-family: var(--robotoM);
+    font-size: 50px;
+    color: var(--brandColor);
+    margin-bottom: 12px;
+}
+
+.brandOffer__Offer__ProductName {
+    font-size: var(--bodyTitleSize);
+    color: var(--brandColor);
+    margin-bottom: 60px;
+}
+
+.brandOffer__buttonWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.brandOffer__Instuction {
+    font-size: 14px;
+    color: black;
+    margin-bottom: 12px;
+}
+
+footer {
+    width: 100vw;
+    background-color: rgb(231, 236, 255);
+    padding-top: 62px;
+    padding-bottom: 32px;
+}
+
+.footer__wrapper {
+    width: var(--mainWidthPage);
+    margin: 0 auto;
+
+}
+
+.company {
+    display: flex;
+    align-items: flex-start;
+}
+
+.company__Name {
+    font-size: 14px;
+    color: var(--altColor);
+    margin-right: 138px;
+}
+
+.separator {
+    width: 100%;
+    height: 2px;
+    background-color: rgb(205, 209, 212);
+    margin-top: 48px;
+    margin-bottom: 26px;
+}
+
+.footerMenu__wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.menuFooter {
+    display: flex;
+    gap: 60px;
+}
+
+.menuFooter a {
+    font-size: 14px;
+    text-decoration: none;
+    color: var(--altColor);
+    cursor: pointer;
+}
+
+.socialIcons{
+    display: flex;
+    gap: 30px;
+}
+
+.socialIcon__facebook {
+    width: 16px;
+    height: 16px;
+    background-image: url(/img/facebook.svg);
+}
+
+.socialIcon__LinkedIn {
+    width: 16px;
+    height: 16px;
+    background-image: url(/img/LinkedIn.svg);
+}
+
+.socialIcon__Twiter {
+    width: 16px;
+    height: 16px;
+    background-image: url(/img/X.svg);
+}
+
+.socialIcon__YouTube {
+    width: 16px;
+    height: 16px;
+    background-image: url(/img/youtube.svg);
+}
+
+.socialIcon__Instagram {
+    width: 16px;
+    height: 16px;
+    background-image: url(/img/instagram.svg);
 }
