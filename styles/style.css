@@ -1,11 +1,11 @@
 @font-face {
     font-family: 'RobotoR';
-    src: url('/fonts/Roboto-Regular.ttf');
+    src: url('/simple-landing/fonts/Roboto-Regular.ttf');
 }
 
 @font-face {
     font-family: 'RobotoM';
-    src: url('/fonts/Roboto-Medium.ttf');
+    src: url('/simple-landing/fonts/Roboto-Medium.ttf');
 }
 
 :root {
@@ -30,7 +30,7 @@
 
 body {
     font-family: var(--robotoR);
-    background-image: url(/img/designer_1.png), url(/img/Rectangle.png);
+    background-image: url(/simple-landing/img/designer_1.png), url(/simple-landing/img/Rectangle.png);
     background-repeat: no-repeat, no-repeat;
     background-position: right top, bottom;
     background-size: auto, 100vw 1066px;
@@ -76,7 +76,7 @@ header {
 .logo {
     width: 94px;
     height: 38px;
-    background-image: url(/img/logo.svg);
+    background-image: url(/simple-landing/img/logo.svg);
     background-repeat: no-repeat;
 }
 
@@ -158,7 +158,7 @@ header {
 }
 
 .brandService {
-    background-image: url(/img/undraw_mobile_login_ikmv.png);
+    background-image: url(/simple-landing/img/undraw_mobile_login_ikmv.png);
     background-repeat: no-repeat;
     background-position: right;
 }
@@ -190,7 +190,7 @@ header {
 .brandService__Icon {
     width: 36px;
     height: 36px;
-    background-image: url(/img/Icon.png);
+    background-image: url(/simple-landing/img/Icon.png);
     background-repeat: no-repeat;
     margin-bottom: 14px;
 }
@@ -217,19 +217,19 @@ header {
 }
 
 .brandOption__01 {
-    background-image: url(/img/undraw_happy_news_hxmt.png);
+    background-image: url(/simple-landing/img/undraw_happy_news_hxmt.png);
     background-repeat: no-repeat;
     background-position: left center;
 }
 
 .brandOption__02 {
-    background-image: url(/img/undraw_social_influencer_sgsv.png);
+    background-image: url(/simple-landing/img/undraw_social_influencer_sgsv.png);
     background-repeat: no-repeat;
     background-position: left center;
 }
 
 .brandOption__03 {
-    background-image: url(/img/undraw_mention_6k5d.png);
+    background-image: url(/simple-landing/img/undraw_mention_6k5d.png);
     background-repeat: no-repeat;
     background-position: left center;
 }
@@ -367,29 +367,29 @@ footer {
 .socialIcon__facebook {
     width: 16px;
     height: 16px;
-    background-image: url(/img/facebook.svg);
+    background-image: url(/simple-landing/img/facebook.svg);
 }
 
 .socialIcon__LinkedIn {
     width: 16px;
     height: 16px;
-    background-image: url(/img/LinkedIn.svg);
+    background-image: url(/simple-landing/img/LinkedIn.svg);
 }
 
 .socialIcon__Twiter {
     width: 16px;
     height: 16px;
-    background-image: url(/img/X.svg);
+    background-image: url(/simple-landing/img/X.svg);
 }
 
 .socialIcon__YouTube {
     width: 16px;
     height: 16px;
-    background-image: url(/img/youtube.svg);
+    background-image: url(/simple-landing/img/youtube.svg);
 }
 
 .socialIcon__Instagram {
     width: 16px;
     height: 16px;
-    background-image: url(/img/instagram.svg);
+    background-image: url(/simple-landing/img/instagram.svg);
 }
