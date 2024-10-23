@@ -12,6 +12,7 @@
     --mainWidthPage: 1112px;
     --navTitleSize: 14px;
     --brandColor: rgb(17, 27, 71);
+    --brandColor-Hover: rgb(27, 40, 99);
     --MenuTitleColor: rgb(80, 95, 152);
     --altColor: rgb(111, 124, 178);
     --footerTitleColor: rgb(147, 158, 164);
@@ -32,7 +33,7 @@ body {
     background-image: url(/img/designer_1.png), url(/img/Rectangle.png);
     background-repeat: no-repeat, no-repeat;
     background-position: right top, bottom;
-    background-size: auto, contain;
+    background-size: auto, 100vw 1066px;
 }
 
 header {
@@ -63,6 +64,10 @@ header {
     color: var(--MenuTitleColor);
 }
 
+.menuMain li a:hover{
+    color: var(--brandColor);
+}
+
 .logoWrapper {
     margin: 0 auto;
     padding-right: 110px;
@@ -85,6 +90,10 @@ header {
     border-radius: 4px;
     border: none;
     cursor: pointer;
+}
+
+.Order__main:hover{
+    background-color: var(--brandColor-Hover);
 }
 
 .mainWrapper {
@@ -133,11 +142,19 @@ header {
     cursor: pointer;
 }
 
+.Button__Order:hover{
+    background-color: var(--brandColor-Hover);
+}
+
 .brandPresentation__buttons button:last-child {
     background-color: rgba(255, 255, 255, 0);
     border: 2px solid var(--brandColor);
     color: var(--brandColor);
     backdrop-filter: blur(12px);
+}
+
+.brandPresentation__buttons button:last-child:hover{
+    background-color: rgba(47, 46, 65, 0.027);
 }
 
 .brandService {
@@ -310,7 +327,7 @@ footer {
 .company__Name {
     font-size: 14px;
     color: var(--altColor);
-    margin-right: 138px;
+    margin-right: 140px;
 }
 
 .separator {
@@ -336,6 +353,10 @@ footer {
     text-decoration: none;
     color: var(--altColor);
     cursor: pointer;
+}
+
+.menuFooter a:hover{
+    color: var(--brandColor);
 }
 
 .socialIcons{
