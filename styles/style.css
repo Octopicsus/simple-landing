@@ -29,9 +29,10 @@
 
 body {
     font-family: var(--robotoR);
-    background-image: url(/img/designer_1.png);
-    background-repeat: no-repeat;
-    background-position: right top;
+    background-image: url(/img/designer_1.png), url(/img/Rectangle.png);
+    background-repeat: no-repeat, no-repeat;
+    background-position: right top, bottom;
+    background-size: auto, contain;
 }
 
 header {
@@ -238,13 +239,6 @@ header {
 .button__wrapper {
     margin-top: 40px;
 }
-
-/* .brandOffer{ */
-/* background-image: url(/img/Rectangle.png); */
-/* background-repeat: no-repeat; */
-/* background-size: 100vw 800px; */
-/* background-position: bottom; */
-/* } */
 
 .brandOffer_wrapper {
     width: var(--mainWidthPage);
