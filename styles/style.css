@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'RobotoR';
+    src: url('/fonts/Roboto-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'RobotoM';
+    src: url('/fonts/Roboto-Medium.ttf');
+}
+
+:root{
+    --navTitleSize: 14px;
+    --brandColor: rgb(17, 27, 71);
+    --MenuTitleColor: rgb(80, 95 , 152);
+    --altColor: rgb(111, 124, 178);
+    --footerTitleColor: rgb(147, 158, 164);
+    --h2TitleSize: 36px;
+    --bodyTitleSize: 16px;
+    --subTitleSize: 12px;
+    --robotoR: 'RobotoR';
+    --robotoM: 'RobotoM';
+}
