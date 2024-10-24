@@ -307,7 +307,7 @@ header {
 }
 
 footer {
-  /*   width: 100vw; */
+    width: 100vw;
     background-color: rgb(231, 236, 255);
     padding-top: 62px;
     padding-bottom: 32px;
