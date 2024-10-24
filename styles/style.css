@@ -393,3 +393,8 @@ footer {
     height: 16px;
     background-image: url(/simple-landing/img/instagram.svg);
 }
+
+.socialIcons div:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
