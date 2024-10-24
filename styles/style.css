@@ -306,105 +306,105 @@ header {
     margin-bottom: 12px;
 }
 
-footer {
-    width: 100vw;
-    background-color: rgb(231, 236, 255);
-    padding-top: 62px;
-    padding-bottom: 32px;
-}
-
-.footer__wrapper {
-    width: var(--mainWidthPage);
-    margin: 0 auto;
-
-}
-
-.company {
-    display: flex;
-    align-items: flex-start;
-}
-
-.company__Name {
-    font-size: 14px;
-    color: var(--altColor);
-    margin-right: 140px;
-}
-
-.separator {
-    width: 100%;
-    height: 2px;
-    background-color: rgb(205, 209, 212);
-    margin-top: 48px;
-    margin-bottom: 26px;
-}
-
-.footerMenu__wrapper{
-    display: flex;
-    justify-content: space-between;
-}
-
-.menuFooter {
-    display: flex;
-    gap: 60px;
-}
-
-.menuFooter a {
-    font-size: 14px;
-    text-decoration: none;
-    color: var(--altColor);
-    cursor: pointer;
-}
-
-.menuFooter a:hover{
-    color: var(--brandColor);
-}
-
-.socialIcons{
-    display: flex;
-    gap: 30px;
-}
-
-.socialIcon__facebook {
-    width: 16px;
-    height: 16px;
-    background-image: url(/simple-landing/img/facebook.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.socialIcon__LinkedIn {
-    width: 16px;
-    height: 16px;
-    background-image: url(/simple-landing/img/LinkedIn.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.socialIcon__Twiter {
-    width: 16px;
-    height: 16px;
-    background-image: url(/simple-landing/img/X.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.socialIcon__YouTube {
-    width: 16px;
-    height: 16px;
-    background-image: url(/simple-landing/img/youtube.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.socialIcon__Instagram {
-    width: 16px;
-    height: 16px;
-    background-image: url(/simple-landing/img/instagram.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.socialIcons div:hover{
-    opacity: 0.8;
-    cursor: pointer;
-}
+/* footer { */
+    /* width: 100vw; */
+    /* background-color: rgb(231, 236, 255); */
+    /* padding-top: 62px; */
+    /* padding-bottom: 32px; */
+/* } */
+/*  */
+/* .footer__wrapper { */
+    /* width: var(--mainWidthPage); */
+    /* margin: 0 auto; */
+/*  */
+/* } */
+/*  */
+/* .company { */
+    /* display: flex; */
+    /* align-items: flex-start; */
+/* } */
+/*  */
+/* .company__Name { */
+    /* font-size: 14px; */
+    /* color: var(--altColor); */
+    /* margin-right: 140px; */
+/* } */
+/*  */
+/* .separator { */
+    /* width: 100%; */
+    /* height: 2px; */
+    /* background-color: rgb(205, 209, 212); */
+    /* margin-top: 48px; */
+    /* margin-bottom: 26px; */
+/* } */
+/*  */
+/* .footerMenu__wrapper{ */
+    /* display: flex; */
+    /* justify-content: space-between; */
+/* } */
+/*  */
+/* .menuFooter { */
+    /* display: flex; */
+    /* gap: 60px; */
+/* } */
+/*  */
+/* .menuFooter a { */
+    /* font-size: 14px; */
+    /* text-decoration: none; */
+    /* color: var(--altColor); */
+    /* cursor: pointer; */
+/* } */
+/*  */
+/* .menuFooter a:hover{ */
+    /* color: var(--brandColor); */
+/* } */
+/*  */
+/* .socialIcons{ */
+    /* display: flex; */
+    /* gap: 30px; */
+/* } */
+/*  */
+/* .socialIcon__facebook { */
+    /* width: 16px; */
+    /* height: 16px; */
+    /* background-image: url(/simple-landing/img/facebook.svg); */
+    /* background-repeat: no-repeat; */
+    /* background-position: center; */
+/* } */
+/*  */
+/* .socialIcon__LinkedIn { */
+    /* width: 16px; */
+    /* height: 16px; */
+    /* background-image: url(/simple-landing/img/LinkedIn.svg); */
+    /* background-repeat: no-repeat; */
+    /* background-position: center; */
+/* } */
+/*  */
+/* .socialIcon__Twiter { */
+    /* width: 16px; */
+    /* height: 16px; */
+    /* background-image: url(/simple-landing/img/X.svg); */
+    /* background-repeat: no-repeat; */
+    /* background-position: center; */
+/* } */
+/*  */
+/* .socialIcon__YouTube { */
+    /* width: 16px; */
+    /* height: 16px; */
+    /* background-image: url(/simple-landing/img/youtube.svg); */
+    /* background-repeat: no-repeat; */
+    /* background-position: center; */
+/* } */
+/*  */
+/* .socialIcon__Instagram { */
+    /* width: 16px; */
+    /* height: 16px; */
+    /* background-image: url(/simple-landing/img/instagram.svg); */
+    /* background-repeat: no-repeat; */
+    /* background-position: center; */
+/* } */
+/*  */
+/* .socialIcons div:hover{ */
+    /* opacity: 0.8; */
+    /* cursor: pointer; */
+/* } */
