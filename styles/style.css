@@ -33,7 +33,7 @@ body {
     background-image: url(/simple-landing/img/designer_1.png), url(/simple-landing/img/Rectangle.png);
     background-repeat: no-repeat, no-repeat;
     background-position: right top, bottom;
-    /* background-size: auto, 100vw 1066px; */
+    background-size: auto, 100vw 1066px;
 }
 
 header {
@@ -307,7 +307,7 @@ header {
 }
 
 footer {
-    width: 100vw;
+  /*   width: 100vw; */
     background-color: rgb(231, 236, 255);
     padding-top: 62px;
     padding-bottom: 32px;
