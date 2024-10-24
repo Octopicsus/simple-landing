@@ -324,11 +324,11 @@ footer {
     align-items: flex-start;
 }
 
-.company__Name {
-    font-size: 14px;
-    color: var(--altColor);
-    margin-right: 140px;
-}
+/* .company__Name { */
+    /* font-size: 14px; */
+    /* color: var(--altColor); */
+   /*  margin-right: 140px; */
+/* } */
 
 .separator {
     width: 100%;
