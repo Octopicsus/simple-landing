@@ -368,30 +368,35 @@ footer {
     width: 16px;
     height: 16px;
     background-image: url(/simple-landing/img/facebook.svg);
+    background-repeat: no-repeat;
 }
 
 .socialIcon__LinkedIn {
     width: 16px;
     height: 16px;
     background-image: url(/simple-landing/img/LinkedIn.svg);
+    background-repeat: no-repeat;
 }
 
 .socialIcon__Twiter {
     width: 16px;
     height: 16px;
     background-image: url(/simple-landing/img/X.svg);
+    background-repeat: no-repeat;
 }
 
 .socialIcon__YouTube {
     width: 16px;
     height: 16px;
     background-image: url(/simple-landing/img/youtube.svg);
+    background-repeat: no-repeat;
 }
 
 .socialIcon__Instagram {
     width: 16px;
     height: 16px;
     background-image: url(/simple-landing/img/instagram.svg);
+    background-repeat: no-repeat;
 }
 
 .socialIcons div:hover{
