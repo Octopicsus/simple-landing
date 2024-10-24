@@ -34,7 +34,6 @@ body {
     background-repeat: no-repeat, no-repeat;
     background-position: right top, bottom;
     background-size: auto, 100vw 1066px;
-    overflow: hidden;
 }
 
 header {
