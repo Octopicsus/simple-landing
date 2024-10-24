@@ -369,6 +369,7 @@ footer {
     height: 16px;
     background-image: url(/simple-landing/img/facebook.svg);
     background-repeat: no-repeat;
+    background-position: center;
 }
 
 .socialIcon__LinkedIn {
@@ -376,6 +377,7 @@ footer {
     height: 16px;
     background-image: url(/simple-landing/img/LinkedIn.svg);
     background-repeat: no-repeat;
+    background-position: center;
 }
 
 .socialIcon__Twiter {
@@ -383,6 +385,7 @@ footer {
     height: 16px;
     background-image: url(/simple-landing/img/X.svg);
     background-repeat: no-repeat;
+    background-position: center;
 }
 
 .socialIcon__YouTube {
@@ -390,6 +393,7 @@ footer {
     height: 16px;
     background-image: url(/simple-landing/img/youtube.svg);
     background-repeat: no-repeat;
+    background-position: center;
 }
 
 .socialIcon__Instagram {
@@ -397,6 +401,7 @@ footer {
     height: 16px;
     background-image: url(/simple-landing/img/instagram.svg);
     background-repeat: no-repeat;
+    background-position: center;
 }
 
 .socialIcons div:hover{
