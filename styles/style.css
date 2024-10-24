@@ -307,7 +307,7 @@ header {
 }
 
 footer {
-    width: 100vw;
+    width: 100%;
     background-color: rgb(231, 236, 255);
     padding-top: 62px;
     padding-bottom: 32px;
@@ -316,7 +316,6 @@ footer {
 .footer__wrapper {
     width: var(--mainWidthPage);
     margin: 0 auto;
-
 }
 
 .company {
@@ -324,11 +323,11 @@ footer {
     align-items: flex-start;
 }
 
-/* .company__Name { */
-    /* font-size: 14px; */
-    /* color: var(--altColor); */
-   /*  margin-right: 140px; */
-/* } */
+.company__Name {
+    font-size: 14px;
+    color: var(--altColor);
+    margin-right: 140px;
+}
 
 .separator {
     width: 100%;
