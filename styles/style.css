@@ -34,6 +34,7 @@ body {
     background-repeat: no-repeat, no-repeat;
     background-position: right top, bottom;
     background-size: auto, 100vw 1066px;
+    overflow: hidden;
 }
 
 header {
@@ -307,7 +308,7 @@ header {
 }
 
 footer {
-    width: 1200px;
+    width: 100vw;
     background-color: rgb(231, 236, 255);
     padding-top: 62px;
     padding-bottom: 32px;
