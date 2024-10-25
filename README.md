@@ -13,3 +13,7 @@ This project is a responsive landing page built with HTML and CSS, designed for 
 - HTML
 - CSS
 - Git & GitHub Pages
+
+### Pages
+
+https://octopicsus.github.io/simple-landing/
